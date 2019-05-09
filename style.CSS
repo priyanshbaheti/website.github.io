@@ -1,0 +1,14 @@
+.nav-link:hover{
+     border-bottom: 5px solid #f4f142;
+     font-weight: bold;
+}
+.navbar{
+	line-height: 49px;
+	position: fixed;
+}
+.bgimg{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+
+}

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  .img:hover{
+  	transform: scale(3.1);
+
+  }
+  </style>
+</head>
+<body>
+  <header>
+  	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          find more
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+ 
+ <div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="hill.jpg" alt="Los Angeles" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Thank you hills of india</h3>
+        <p>We had such a great time in LA!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="hill2.jpg" alt="Chicago" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="hill3.jpg" alt="New York" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+  </header>
+
+
+
+      <!--------------about us------------------>
+      <section>
+      	 <div class="container-fluid">
+      	 	 <p class="display-4  text-center text-capitalize font-weight-bold pt-5">About Us</p>
+      	   <hr class="w-25 mr-auto pb-5">
+      	     <div class="row mb-5">
+      	     	<div class="col-lg-6 col-md-6 col-sm-12">
+      	     	<img src="hill.jpg" height="300px" width="650px"> 
+      	     	</div>
+
+      	     	<div class="col-lg-6 col-md-6 col-sm-12">
+      	     		  <p class="display-3 font-weight-bold">Who Am I?</p><hr>
+      	     		   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      	     		   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      	     		   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      	     		   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      	     		   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      	     		   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                         <button class="btn btn-primary">Learn more</button>
+      	     	</div>
+      	     </div>
+      	 </div>
+      </section>
+
+       <!-------------------------about us end-------------->
+      <!----------service part-------------->
+      <section>
+      	<div class="container-fluid text-cente mb-5">
+       <p class="display-3 font-weight-bold pt-5 text-center " >Services</p>
+       <hr class="pt-5 w-25">
+      	<div class="row">
+      		    <div class="card p-5" style="width:400px">
+  <img class="card-img-top" src="hill.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">Some example text.</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+ <div class="card p-5" style="width:400px">
+  <img class="card-img-top" src="hill.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">Some example text.</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+ <div class="card p-5" style="width:400px">
+  <img class="card-img-top" src="hill.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">Some example text.</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+
+</div>
+
+</div>
+ <div class="btn text-center">
+   <a  href=""    class="btn btn-warning ml-5">CREATE YOUR PROFILE</a>
+ </div><br>
+ 
+ <div class="btn text-center">
+ 	<button class="btn btn-lg w-50 text-center btn btn-warning m-5">view more profile</button>
+ </div>
+ </section>
+  <!-------------------service part end------------------>
+  <!------------call----------------->
+     <section  class=" bg-primary">
+     	  <article  class="py-5  text-center text-light">
+     	  	 <div>
+     	  	    <p class="display-3 text-light">+91 123456789</p>
+     	  	    <p >If you want best service call  now</p>
+     	  	    <button class="btn btn-warning">Call</button>
+     	  	 </div>
+     	  </article>
+     </section>
+     <!------------------------call end----------------------->
+   <!-----------------------------gallery start---------------------->
+   <section>
+
+   <p class="display-3 font-weight-bold text-center mb-5">Gallery</p>
+       <hr class="pt-5 w-25">
+       <div class="container-fluid">
+            <div class="row">
+            	 <div class="col-mg-4">
+                <img src="hill.jpg" class="m-5 img">
+                <img src="hill.jpg" class="m-5">
+                <img src="hill.jpg" class="m-5">
+                <img src="hill.jpg"class="m-5">
+                
+                 </div>
+            </div>
+             <div class="row">
+            	 <div class="col-mg-4">
+                <img src="hill.jpg" class="m-5">
+                <img src="hill.jpg" class="m-5" >
+                <img src="hill.jpg"class="m-5">
+                <img src="hill.jpg" class="m-5">
+                
+                 </div>
+            </div>
+       </div>
+      </section>
+      <!-----------------------------gallery end-------------->
+      <!----------------------------------contact short--------------->
+          <section  class=" bg-primary text-center p-4">
+     	  
+     	  	 <div>
+     	  	    <p class="display-3 text-light">Want to join us</p>
+     	  	    <p >click here to get started</p>
+     	  	    
+<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">
+   get started
+</button>
+
+
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+
+      <div class="modal-header">
+        <h4 class="modal-title">get started</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      
+      <div class="modal-body">
+            <form>
+            	 <div class="form-group">
+            	 	  <label>Name:</label>
+            	 	    <input type="text" name="" class="form-control"> 
+            	 </div>
+            	 <div class="form-group">
+            	 	  <label>Password</label>
+            	 	    <input type="text" name="" class="form-control"> 
+            	 </div>
+                 <input type="submit" name="" class="btn btn-success">
+            </form>
+      </div>
+
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+     	  	 </div>
+     	  
+     </section>
+  <!--------------------------contact short end---------------------->
+    <!-------------------------sign up----------------------->
+    <div class="container mt-3">
+    	<form>
+    		<div class="form-group m-3">
+    			 name:<input type="text" name="" class="form-control">
+    		</div>
+    		<div class="form-group m-3">
+    			 password:<input type="password" name="" class="form-control">
+    		</div>
+    		<div class="form-group m-3">
+    			 email:<input type="emal" name="" class="form-control">
+    		</div>
+             <div class="form-group m-3">
+    			 phone:<input type="number" name="" class="form-control" maxlength="10">
+    		</div>
+    		  <input type="submit" name="" class="btn btn-primary">
+    	</form>
+
+    	</div>
+        
+   <!----------------------------our work ------------------------>
+   <div class="container">
+  
+     <p class="display-3 font-weight-bold mt-5 text-center text-capitalize">our work</p>
+      <div class="love calculator">
+            <hr>
+             <p class="display-4">Love calculator</p>
+
+     <a href="file:///D:/boootstrap.html" class="btn btn-success ml-5 btn-lg text-center w-75"> LOVE CALCULATOR </a>
+         </div>
+         <div class="hate">
+                    <p class="display-4">  Hate calculator</p>
+                    <a href="file:///D:/admin.html" class="btn btn-outline-danger ml-5 btn-lg text-center w-75"> Hate CALCULATOR </a>
+
+
+         </div>
+   </div>
+<a href=""></a>
+</body>
+</html>
